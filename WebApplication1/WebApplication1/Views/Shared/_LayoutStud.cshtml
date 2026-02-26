@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Library Management System</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+    <!-- Student Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Library</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Book" asp-action="showBookForStud">Books</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Room" asp-action="ShowRoom">Rooms</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="User" asp-action="activities">activities</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Feedback" asp-action="addFeedback">addFeedback</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="User" asp-action="ProfileManagement">Profile</a>
+                </li>
+
+            </ul>
+            @* <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <span class="navbar-text">
+                        Welcome, @HttpContextAccessor.HttpContext.Session.GetString("FirstName")
+                        @HttpContextAccessor.HttpContext.Session.GetString("LastName")
+                    </span>
+                </li>
+                <li class="nav-item"><a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a></li>
+            </ul> *@
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-light mt-4">
+        <div class="container">
+            <p>&copy; 2026 - University Library</p>
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

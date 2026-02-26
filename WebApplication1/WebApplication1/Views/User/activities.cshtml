@@ -1,0 +1,39 @@
+﻿@* @model  Tuple<string , string >
+    @{
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+<h2>My Activities</h2>
+
+<h3>Borrowed Books</h3>
+<table class="table">
+    <tr>
+        <th>Book Title</th>
+        <th>Borrow Date</th>
+        <th>Return Date</th>
+    </tr>
+    @foreach (var b in Model.BorrowedBooks)
+    {
+        <tr>
+            <td>@b.Book.Title</td>
+            <td>@b.BorrowDate.ToShortDateString()</td>
+            <td>@(b.ReturnDate?.ToShortDateString() ?? "Not Returned")</td>
+        </tr>
+    }
+</table>
+
+<h3>Reservations</h3>
+<table class="table">
+    <tr>
+        <th>Book Title</th>
+        <th>Reservation Date</th>
+        <th>Status</th>
+    </tr>
+    @foreach (var r in Model.Reservations)
+    {
+        <tr>
+            <td>@r.Book.Title</td>
+            <td>@r.ReservationDate.ToShortDateString()</td>
+            <td>@r.Status</td>
+        </tr>
+    }
+</table> *@

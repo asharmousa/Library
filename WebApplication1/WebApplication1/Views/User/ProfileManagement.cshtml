@@ -1,0 +1,13 @@
+﻿<h2>Profile Management</h2>
+@{
+    Layout = "~/Views/Shared/_LayoutStud.cshtml";
+}
+<div>
+    <p><strong>Name:</strong> @Context.Session.GetString("FirstName") @Context.Session.GetString("LastName")</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+    <p><strong>Status:</strong> @Model.StudStatus</p>
+    <img src="@Model.ProfilePicture" alt="Profile Picture" />
+</div>
+
+<a asp-action="EditProfile" class="btn btn-primary">Edit Profile</a>

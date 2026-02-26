@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebApplication1.Models.Feedback>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Feedback Management</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Message</th>
+            <th>Type</th>
+            <th>Rating</th>
+            <th>Date</th>
+            <th>Approved</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.User?.FirstName @f.User?.LastName</td>
+                <td>@f.Message</td>
+                <td>@f.FeedbackType</td>
+                <td>@f.Rating</td>
+                <td>@f.SubmittedDate</td>
+                <td>@f.IsApproved</td>
+                <td>
+                    @if (!f.IsApproved)
+                    {
+                        <form asp-action="ApproveFeedback" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@f.FeedbackId" />
+                            <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                        </form>
+                        <form asp-action="RejectFeedback" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@f.FeedbackId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Approved</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</table>

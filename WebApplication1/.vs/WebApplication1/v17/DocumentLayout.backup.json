@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\room\\showroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\room\\showroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\user\\showroomforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\user\\showroomforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\room\\requestreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\room\\requestreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\user\\profilemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\user\\profilemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\shared\\_layoutstud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layoutstud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\book\\showbookforstud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\book\\showbookforstud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\feedback\\showfeedbackforhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\feedback\\showfeedbackforhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\feedback\\showfeedbackforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\feedback\\showfeedbackforadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|c:\\users\\pc\\desktop\\last-virsion\\webapplication1\\webapplication1\\views\\user\\activities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{812055CE-89FF-4DD7-BFEC-391AD2515825}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\user\\activities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 635,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowRoom.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Room\\ShowRoom.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Room\\ShowRoom.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Room\\ShowRoom.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Room\\ShowRoom.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:50:16.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "showBookForStud.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Book\\showBookForStud.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Book\\showBookForStud.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Book\\showBookForStud.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Book\\showBookForStud.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:48:01.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:54:06.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutStud.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_LayoutStud.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_LayoutStud.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_LayoutStud.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_LayoutStud.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:50:33.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowRoomForAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\ShowRoomForAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\User\\ShowRoomForAdmin.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\ShowRoomForAdmin.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\User\\ShowRoomForAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T20:36:40.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\ProfileManagement.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\User\\ProfileManagement.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\ProfileManagement.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\User\\ProfileManagement.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:34:18.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T20:47:58.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAADwvzoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T20:57:19.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Room\\RequestReservation.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Room\\RequestReservation.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Room\\RequestReservation.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Room\\RequestReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:44:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Models\\Room.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Room.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T20:44:03.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Models\\Feedback.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T20:48:21.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShowFeedbackForAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Feedback\\ShowFeedbackForAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Feedback\\ShowFeedbackForAdmin.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Feedback\\ShowFeedbackForAdmin.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Feedback\\ShowFeedbackForAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:01:15.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowFeedbackForHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Feedback\\ShowFeedbackForHome.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Feedback\\ShowFeedbackForHome.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Feedback\\ShowFeedbackForHome.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Feedback\\ShowFeedbackForHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T21:01:50.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:30:06.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T20:23:53.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "activities.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\activities.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\User\\activities.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Views\\User\\activities.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\User\\activities.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:45:07.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\last-virsion\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T19:50:31.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

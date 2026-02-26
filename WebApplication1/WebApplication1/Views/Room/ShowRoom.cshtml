@@ -1,0 +1,73 @@
+﻿@model IEnumerable<WebApplication1.Models.Room>
+@{
+    Layout = "~/Views/Shared/_LayoutStud.cshtml";
+}
+<h2>Available Rooms</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Room Id</th>
+                <th>Name</th>
+                <th>Capacity</th>
+                <th>Status</th>
+                <th>Reservation Date</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in Model)
+            {
+                <tr>
+                    <td>@room.RoomId</td>
+                    <td>@room.RoomName</td>
+                    <td>@room.Capacity</td>
+                    <td>@room.RoomStatus</td>
+                    <td>@room.ReservationDate</td>
+                    <td>@room.StartTime</td>
+                    <td>@room.EndTime</td>
+                    <td>
+                        @if (room.RoomStatus == "Pending")
+                        {
+                            <!-- Admin Approve/Reject -->
+                            <form asp-action="ApproveReservation" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@room.RoomId" />
+                                <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                            </form>
+
+                            <form asp-action="RejectReservation" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@room.RoomId" />
+                                <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+                            </form>
+                        }
+                        else if (room.RoomStatus == "Available")
+                        {
+                            <!-- Student Request -->
+                            <form asp-action="RequestReservation" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@room.RoomId" />
+                                <input type="date" name="reservationDate" required />
+                                <input type="time" name="startTime" required />
+                                <button type="submit" class="btn btn-primary btn-sm">Request</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">@room.RoomStatus</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No rooms found.</p>
+}

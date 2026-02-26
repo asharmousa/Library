@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WebApplication1.Models.Feedback>
+@{
+    Layout = "~/Views/Shared/_LayoutStud.cshtml";
+}
+<h2>Student Feedback</h2>
+
+@if (Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var f in Model)
+        {
+            <li class="list-group-item">
+                <strong>@f.User?.FirstName @f.User?.LastName:</strong>
+                @f.Message <br />
+                <small>Type: @f.FeedbackType | Rating: @f.Rating/5 | Date: @f.SubmittedDate</small>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No approved feedback yet.</p>
+}

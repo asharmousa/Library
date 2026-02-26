@@ -1,0 +1,73 @@
+﻿@model IEnumerable<WebApplication1.Models.Book>
+
+@{
+    ViewData["Title"] = "Manage Books";
+}
+
+<h2>Manage Books</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Book Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Borrow Date</th>
+                <th>Due Date</th>
+                <th>Return Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.BookId</td>
+                    <td>@book.BookTitle</td>
+                    <td>@book.BookAuthor</td>
+                    <td>@book.BookCategory</td>
+                    <td>@book.BookStatus</td>
+                    <td>@book.BorrowDate</td>
+                    <td>@book.DueDate</td>
+                    <td>@book.ReturnDate</td>
+                    <td>
+                        @if (book.BookStatus == "Pending")
+                        {
+                            <form asp-action="ApproveBorrow" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@book.BookId" />
+                                <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                            </form>
+
+                            <form asp-action="RejectBorrow" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@book.BookId" />
+                                <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+                            </form>
+                        }
+                        else if (book.BookStatus == "Borrowed")
+                        {
+                            <form asp-action="ReturnBook" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@book.BookId" />
+                                <button type="submit" class="btn btn-info btn-sm">Mark Returned</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">@book.BookStatus</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No books found.</p>
+}

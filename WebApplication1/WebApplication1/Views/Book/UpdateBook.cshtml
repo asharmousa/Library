@@ -1,0 +1,47 @@
+﻿@model WebApplication1.Models.Book
+
+@{
+    ViewData["Title"] = "Update Book";
+}
+
+<h2>Update Book</h2>
+
+<form asp-action="UpdateBook" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="BookTitle"></label>
+        <input asp-for="BookTitle" class="form-control" />
+        <span asp-validation-for="BookTitle" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BookAuthor"></label>
+        <input asp-for="BookAuthor" class="form-control" />
+        <span asp-validation-for="BookAuthor" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BookCategory"></label>
+        <input asp-for="BookCategory" class="form-control" />
+        <span asp-validation-for="BookCategory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BookStatus"></label>
+        <input asp-for="BookStatus" class="form-control" />
+        <span asp-validation-for="BookStatus" class="text-danger"></span>
+    </div>
+
+    <!-- Hidden field for BookId -->
+    <input type="hidden" asp-for="BookId" />
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="ShowBookForAdmin" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

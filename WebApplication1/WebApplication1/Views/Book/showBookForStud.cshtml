@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApplication1.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+    // Layout = "~/Views/Shared/_LayoutStud.cshtml";
+}
+
+<h2>Books</h2>
+
+<form  asp-action="Search" method="Post" class="form-inline mb-3">
+
+    <input type="text" name="searchTerm" value="@TempData["searchTerm"]"
+           class="form-control mr-2" placeholder="Search by title..." />
+
+    <button type="submit" class="btn btn-primary">Search</button>
+
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.BookTitle</td>
+                    <td>@book.BookAuthor</td>
+                    <td>@book.BookCategory</td>
+                    <td>@book.BookStatus</td>
+                    <td>
+                        @if (book.BookStatus == "Available")
+                        {
+                            <form asp-action="RequestBorrow" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@book.BookId" />
+                                <button type="submit" class="btn btn-success btn-sm">Borrow</button>
+                            </form>
+                        }
+                        else   
+                        {
+                            <form asp-action="CanselBorrow" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@book.BookId" />
+                                <button type="submit" class="btn btn-success btn-sm">cansel</button>
+                            </form>
+                        }
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No books found.</p>
+}
